@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">   <!-- language declared for screen readers -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment 11 - Accessibility</title>
+</head>
+<body>
+<!-- Skip link: lets keyboard users jump past the menu -->
+<a href="#main">Skip to main content</a>
+<nav aria-label="Main navigation">
+<a href="#">Home</a>
+<a href="#">Help</a>
+</nav>
+<main id="main">
+<h1>Accessible Page</h1>
+<!-- Icon-only button gets an ARIA label -->
+<button aria-label="Close">X</button>
+<!-- Meaningful alt text on the image -->
+<img src="banner.jpg" alt="College building at sunrise" width="275" height="20">
+<!-- Every input has a proper label -->
+<p>
+<label for="search">Search:</label>
+<input type="text" id="search" name="search">
+</p>
+</main>
+</body>
+</html>
