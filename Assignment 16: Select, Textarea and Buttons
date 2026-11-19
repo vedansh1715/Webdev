@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Assignment 16 - Select, Textarea, Buttons</title>
+</head>
+<body>
+<form>
+<p>
+<label for="course">Course:</label>
+<select id="course" name="course">
+<option value="ece">ECE</option>
+<option value="cse">CSE</option>
+<option value="me">ME</option>
+</select>
+</p>
+<p>
+<label for="fb">Feedback:</label><br>
+<textarea id="fb" name="feedback" rows="5" cols="50" placeholder="Write here..."></textarea>
+</p>
+<p>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+<button type="button" onclick="alert('Button clicked!')">Click Me</button>
+</p>
+</form>
+</body>
+</html>
