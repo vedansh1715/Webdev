@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Assignment 3 - Block and Inline</title>
+<style>
+/* Block elements: take the full width and start on a new line */
+div  { background: lightblue; margin: 5px; padding: 2px 4px; }
+/* Inline elements: take only the width they need and sit side by side */
+span { background: lightgreen; }
+</style>
+</head>
+<body>
+<div>Block 1</div>
+<div>Block 2</div>
+<span>Inline 1</span>
+<span>Inline 2</span>
+<span>Inline 3</span>
+</body>
+</html>
